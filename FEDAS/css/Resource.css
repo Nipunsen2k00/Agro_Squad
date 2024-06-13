@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f5f5f5;
+    padding: 10px 20px;
+}
+
+header .logo img {
+    width: 100px;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+header .search-bar input {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.resources-section {
+    display: flex;
+    height: 100vh;
+}
+
+.resources-image {
+    flex: 1;
+}
+
+.resources-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.resources-form-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e0f7e0;
+    margin: 50px;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+.resources-form-container h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.resources-form-container p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.resources-form-container .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+    width: 100%;
+}
+
+.resources-form-container .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.resources-form-container .form-group select,
+.resources-form-container .form-group input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 1em;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
