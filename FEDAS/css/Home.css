@@ -1,0 +1,177 @@
+body {
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f5f5f5;
+    padding: 10px 20px;
+}
+
+header .logo img {
+    width: 100px;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+header .search-bar input {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.hero {
+    margin: 0 px;
+    text-align: center;
+    padding: 50px 20px;
+    background-image: url('../Images/Home1.png'); /* Update this path as needed */
+    background-size: fix; /* Cover the entire container */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+.hero-buttons {
+    margin-top: 20px;
+}
+
+.hero-buttons button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.hero-buttons .login {
+    background-color: #4caf50;
+    color: #fff;
+}
+
+.hero-buttons .signup {
+    background-color: #ff5722;
+    color: #fff;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.services .service {
+    text-align: center;
+}
+
+.services .service img {
+    width: 100px;
+    height: 100px;
+}
+
+.services .service p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 20px;
+    background-color: #f5f5f5;
+}
+
+.about-image img {
+    width: 300px;
+    height: auto;
+}
+
+.about-text {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.services-offered {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.services-offered h2 {
+    font-size: 2em;
+}
+
+.services-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.service-item {
+    width: 150px;
+    text-align: center;
+}
+
+.service-item img {
+    width: 100px;
+    height: 100px;
+}
+
+.service-item p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+footer {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-image: url('../Images/Contacting\ Details.jpg'); /* Update this path as needed */
+    background-size: fix; /* Cover the entire container */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+footer .contact {
+    flex: 1;
+}
+
+footer .social-links {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+footer .social-links a {
+    margin-left: 10px;
+}
